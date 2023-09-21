@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+}
+body{
+	font-family: Arial;
+	color: white;
+}
+header, footer{
+	background-color: green;
+	text-align: center;
+	padding: 5px;
+	border: 0px;
+}
+header{
+	font-family: serif;
+}
+section{
+	margin-left: auto;
+    margin-right: auto;
+	width: 500px;
+	padding: 20px;
+	background-color: blue;
+	line-height: 150%;
+}
+section h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+section .square{
+	float: left;
+	margin-right: 20px;
+	height: 70px;
+  	width: 70px;
+  	border: 5px solid white;
+  	border-top-left-radius: 10px;
+  	border-bottom-right-radius: 10px;
+}
+section .sectionLink{
+	display: block;
+	text-align: center;
+	margin: 20px 0px;
+
+}
+section a{
+	color: red;
+}
+section ul{
+	margin: 10px 0;
+}
+section li:nth-child(2){
+	color: aquamarine;
+	letter-spacing: 5px;
+}
+section table{
+	float: right;
+	width: 150px;
+	height: 100px;
+	text-align: center;
+}
+section img{
+	float: right;
+	margin-top: 20px;
+	clear: right;
+}
