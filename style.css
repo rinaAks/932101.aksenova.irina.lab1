@@ -16,11 +16,15 @@ header{
 }
 section{
 	margin-left: auto;
-    	margin-right: auto;
+    margin-right: auto;
 	width: 500px;
 	padding: 20px;
 	background-color: blue;
+	min-height: 100px;
+	min-width: 150px;
+	max-width: 1920px;
 	line-height: 150%;
+	overflow: auto;
 }
 section h1{
 	font-size: 30px;
@@ -35,7 +39,7 @@ section .square{
   	border-top-left-radius: 10px;
   	border-bottom-right-radius: 10px;
 }
-section .sectionLink{
+section nav{
 	display: block;
 	text-align: center;
 	margin: 20px 0px;
@@ -44,20 +48,35 @@ section .sectionLink{
 section a{
 	color: red;
 }
-section ul{
-	margin: 10px 0;
+ul>li{
+	color: white;
+}
+section li:first-child{
+	margin-top: 10px;
 }
 section li:nth-child(2){
 	color: aquamarine;
 	letter-spacing: 5px;
 }
-section table{
+section li:last-child{
+	margin-bottom: 20px;
+}
+section aside{
 	float: right;
+}
+section table{
 	width: 150px;
 	height: 100px;
 	text-align: center;
 }
+section .inv{
+	position: absolute;
+	top: 550px;
+	left: 60px;
+  	visibility: hidden;
+}
 section img{
+	box-sizing: content-box;
 	float: right;
 	margin-top: 20px;
 	clear: right;
