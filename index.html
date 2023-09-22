@@ -15,35 +15,38 @@
 		<h1>Hello, content!</h1>
 		<div class="square"></div>
 		<p style = "line-height: 120%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		<div class="sectionLink"><a href="www.csd.tsu.ru">www.csd.tsu.ru</a></div>
+		<nav><a href="www.csd.tsu.ru">www.csd.tsu.ru</a></nav>
 		<h2 style = "word-spacing: 15px;"><span style="color: red">Here</span> is the list:</h2>
-		<ul>
+		<ul style="list-style: initial;">
 			<li>Value 1</li>
 			<li>Value 2</li>
 			<li>Value 3</li>
 		</ul> 
-		<table border="2">
-			<tr>
-				<td rowspan="2" style="background:green">1</td>
-				<td>2</td>
-				<td>3</td>
-			</tr>
-			<tr>
-				<td>4</td>
-				<td>5</td>
-			</tr>
-			<tr>
-				<td>6</td>
-				<td colspan="2" style="background:red">7</td>
-			</tr>
-		</table>
+		<aside>
+			<table border="2">
+				<tr>
+					<td rowspan="2" style="background:green">1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td colspan="2" style="background:red">7</td>
+				</tr>
+			</table>
+		</aside>
 		<img src="images.png" alt="картинка не загрузилась">
 		<div class="textStyles">
 			<h3>Here are some visual styles:</h3>
 			<p><i>Italic</i></p>
 			<p><b>Bold</b></p>
-			<p><ins>UnderLined</ins></p>
-			<br><p><del>Line through</del></p>
+			<u>UnderLined</u><br>
+			<br><p style = "text-decoration: line-through">Line through</p>
+			<p class="inv">invisible text</p>
 		</div>
 	</section>
 
